@@ -13,7 +13,7 @@
   width: 1199px;
 }
 
-.banner {
+.banner { 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,6 +24,10 @@
   height: 270px;
   font-size: 28px;
   font-weight: 600;
+}
+
+.banner h1, .vantagens h2 {
+  color: #ff3a24; /* Cor do texto dos títulos */
 }
 
 .banner > img {
@@ -57,6 +61,11 @@
   align-items: center;
   width: 279px;
   height: 180px;
+  padding: 1rem; /* Adicionar Borda */
+  border: 2px solid #333; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .vantagens__item p {
